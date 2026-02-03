@@ -9,12 +9,14 @@ import gitLogo from "../assets/git-logo.png";
 import githubLogo from "../assets/github-logo.svg";
 import nodejsLogo from "../assets/nodejs-logo.png";
 import mongoDBLogo from "../assets/mongodb-logo.png";
+import sqlLogo from "../assets/sql-logo.png";
+import restAPILogo from "../assets/restapi-logo.png";
 
 function TechStack() {
   return (
     <div>
-      <p className="text-gray-500 text-medium ">Stack of tecnologies</p>
-      <div className="flex flex-row items-center gap-3">
+      <p className="text-gray-500 font-semibold  mt-36">Stack of tecnologies</p>
+      <div className="flex flex-row items-center justify-center gap-3 mt-1 bg-white shadow-md">
         <img
           src={htmlLogo}
           className="object-contain h-9 w-9"
@@ -61,6 +63,16 @@ function TechStack() {
           src={mongoDBLogo}
           className="h-24 w-24 object-contain object-center"
           alt="MongoDB logo"
+        />
+        <img
+          src={sqlLogo}
+          className="h-14 w-14 object-contain"
+          alt="SQL logo"
+        />
+        <img
+          src={restAPILogo}
+          className="h-12 w-12 object-contain"
+          alt="RestAPI logo"
         />
       </div>
     </div>
